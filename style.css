@@ -1,0 +1,221 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#carouselExampleCaptions .w-100 {
+    width: 100% !important;
+    height: 90vh;
+}
+
+i{
+    cursor: pointer;
+}
+.light {
+    background-color: #fdfafaee;
+}
+#products-home .card{
+    position: relative;
+}
+#products-home .bi.bi-heart-fill{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgb(180, 175, 175);
+    font-size: 2rem;
+
+}
+
+#products-home .bi.bi-heart-fill:hover{
+    color: red;
+}
+.products .bi.bi-star-fill {
+    color: goldenrod;
+}
+
+.products .price {
+    color: goldenrod;
+
+}
+
+.products .btn {
+    width: 100%;
+
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer input {
+    padding: 4px;
+}
+
+footer .but {
+    padding: 5.8px;
+    background-color: yellow;
+    margin: 0;
+    border: none;
+
+}
+
+footer .social-media span {
+    border-radius: 50%;
+    padding: 8px 9px;
+    padding-top: 11px;
+    background-color: grey;
+}
+
+footer .social-media span i.bi {
+    font-size: 22px;
+}
+
+nav i.bi.bi-cart-plus-fill {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.badge-div {
+    position: absolute;
+    top: 0;
+    left: 17rem;
+}
+
+
+.bread {
+    background-color: rgb(186, 184, 184);
+}
+
+.product-detail {
+    max-height: 60vh;
+}
+
+
+#product-detail .color {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#product-detail .color:hover {
+    border-radius: 5px solid rgb(16, 16, 16);
+}
+
+#product-detail .bi.bi-check {
+    color: white;
+    font-size: 1rem;
+
+}
+
+.color-label i {
+    opacity: 0;
+}
+
+.color-label {
+    border-radius: 50% !important;
+    margin: 5px;
+}
+
+.btn-check:checked+.color-label i {
+    opacity: 1;
+}
+.bi.bi-x-circle{
+    font-size: 1.6rem;
+}
+.bi.bi-x-circle:hover{
+color: red;
+
+}
+ #Cart #promo-input{
+    width: 77%;
+}
+#login{
+    width:35%;
+    margin: auto;
+    border: 1px solid rgb(171, 168, 168);
+    background-color: rgb(240, 233, 233);
+    border-radius: 0.5rem;
+}
+#signup{
+    width:35%;
+    margin: auto;
+    border: 1px solid rgb(171, 168, 168);
+    background-color: rgb(240, 233, 233);
+    border-radius: 0.5rem;
+}
+#notFound{
+    width:35%;
+    margin: auto;
+    border: 1px solid rgb(171, 168, 168);
+    background-color: rgb(240, 233, 233);
+    border-radius: 0.5rem;
+}
+#login-e a,#sign-e a,#notFound-e a{
+    color: black;
+    text-decoration: none;
+}
+
+#notFound .bi.bi-emoji-frown-fill{
+    font-size: 10rem;
+    color: rgb(236, 20, 20);
+}
+@media only screen and (max-width:992px){
+    .badge-div {
+        position: absolute;
+        top: 5rem;
+        left: 4rem;
+    }
+}
+
+
+@media only screen and (max-width:992px){
+    #login{
+        width:50%;
+        margin: auto;
+        border: 1px solid rgb(171, 168, 168);
+        background-color: rgb(240, 233, 233);
+        border-radius: 0.5rem;
+    }
+    #signup{
+        width:50%;
+        margin: auto;
+        border: 1px solid rgb(171, 168, 168);
+        background-color: rgb(240, 233, 233);
+        border-radius: 0.5rem;
+    }
+}
+
+
+
+@media only screen and (max-width:460px){
+    #login{
+        width:90%;
+        margin: auto;
+        border: 1px solid rgb(171, 168, 168);
+        background-color: rgb(240, 233, 233);
+        border-radius: 0.5rem;
+    }
+    #signup{
+        width:90%;
+        margin: auto;
+        border: 1px solid rgb(171, 168, 168);
+        background-color: rgb(240, 233, 233);
+        border-radius: 0.5rem;
+    }
+    #login input::placeholder{
+        font-size: 0.8rem;
+    }
+    #signup input::placeholder{
+        font-size: 0.8rem;
+    }
+}
+
